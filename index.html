@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOR STUDY :}</title>
+    <div class="container">
+    <h1>Нельзя!! <span class="auto-type"></span></h1>
+</div>
+</head>
+<body>
+    
+    <script>
+        function play() {
+          var audio = document.getElementById("audio");
+          audio.play();
+          var typed = new Typed(".auto-type", { 
+        strings: ["открывать незнакомые сайты ЭТО СПАМ , Я НЕ СКАЖУ КТО Я НО Я ПЕЧАТУЮ ЭТО В РЕАЛЬНОМ ВРЕМИНИ я не имею ничего против вас но  ПРОСТИТЕ   ВЫ ВЗЛОМАНЫ (((( [._.]   !!!!!  АХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХА</br>ХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХ</br>АХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАЫАХАХА</br>ХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХА</br>ХАХАХАХАХАХАХАХАХАХАХАХАХАХХАХАХАХАХАХАХАХАХАХАХАХХАХАААХХАХАХХАХАХАА</br>АХАХАХХХХАХАХАХАХХАХАХАХХАХАХАХХАХАХАХХАХАХАХАХАХХАХАХАХАХХАХ</br>Я НАДЕЮСЬ ВЫ УСВОИЛИ УРОК ДА?????? ", "<br>УДАЧИ С SECURITY И SAFETY КОТОРЫХ У ВАС НЕ ВУДЕТ ГЫГЫГЫГЫГЫГЫГЫГЫГЫГЫГЫГЫГЫ ))))))))))) (._.) ХЕХЕХЕХЕХЕХЕХЕХЕ!! //////////////////////////////</br>//////////////////////////////////////////////////////////////</br>///////////////////////////////////////////"],
+        backSpeed: 10,
+        typeSpeed: 70,
+        loop: true
+    })
+    document.body.style.backgroundImage = "url('background.png')";
+    alert('You want continue process? To continue recomended to press "Ok" ');
+    swal({
+  title: "Are you sure?",
+  text: "You want continue process? To continue recomended to press 'Ok'  ",
+  icon: "warning",
+  buttons: true,
+  dangerMode: true,
+})
+.then((willDelete) => {
+  if (willDelete) {
+    swal("Recomended DO NOT LEVE THIS PAGE press 'Ok' to exit this page safely!!", {
+      icon: "warning",
+      buttons: true,
+      dangerMode: true,
+    });
+  } else {
+    swal("Sorry the process has already started , and CAN'T STOP DO NOT LEAVE!!!");
+    
+  }
+});
+
+        }
+        document.addEventListener('contextmenu', (e) => e.preventDefault());
+
+function ctrlShiftKey(e, keyCode) {
+  return e.ctrlKey && e.shiftKey && e.keyCode === keyCode.charCodeAt(0);
+}
+
+document.onkeydown = (e) => {
+  if (
+    event.keyCode === 123 ||
+    ctrlShiftKey(e, 'I') ||
+    ctrlShiftKey(e, 'J') ||
+    ctrlShiftKey(e, 'C') ||
+    (e.ctrlKey && e.keyCode === 'U'.charCodeAt(0))
+  )
+    return false;
+};
+      </script>
+     
+      <input  class="btn"  type="button" value="EXIT PAGE ? {; " onclick="play()">
+      <audio id="audio" src="odium.mp3" loop></audio>
+   
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <style> 
+    h1 .auto-type
+    { 
+        align-items: center;
+        text-align: center;
+        font-size: 30px;
+        justify-content: center;
+        color: greenyellow;
+    }
+    h1
+    { 
+        color: greenyellow;
+    }
+    body
+    { 
+       
+      background-size: cover;
+      color: rgb(53, 122, 53);
+      font-family: 'Hack' ;
+      background-color: greenyellow;
+      cursor: url(iconmonstr-warning-3-240.png), auto;
+    }
+    
+    
+    .btn
+    { 
+      text-align: center;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid green;
+        background-color: black;
+        color: greenyellow;
+        width: 200px;
+        height: 50px;
+        margin-left: 500px;
+        margin-top: 250px;
+        cursor: url('iconmonstr-warning-3-240.png'), auto;
+        
+    }
+    body:active:hover
+    { 
+      cursor: hidden;
+    }
+    
+  
+
+    </style>
+    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    
+</body>
+</html>
